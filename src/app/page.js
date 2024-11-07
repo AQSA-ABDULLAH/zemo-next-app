@@ -154,7 +154,8 @@ export default function Home() {
 
 
       {/* SEVENTH SECTION */}
-      <section className="container mx-auto relative py-16 flex flex-col gap-4 min-h-screen uppercase  bg-white text-black font-semibold text-lg">
+      {/* SEVENTH SECTION */}
+      <section className="container mx-auto relative py-16 flex flex-col gap-4 min-h-screen uppercase bg-white text-black font-semibold text-lg">
 
         {/* ZIMA MEET Logo */}
         <div className="flex flex-col">
@@ -185,6 +186,30 @@ export default function Home() {
           <p className="text-silver tracking-[2px] text-[12px] lg:text-[14px] 2xl:text-[16px] pt-3">together, we create and build a better world.</p>
         </article>
 
+        {/* New Device Previews and App Download Buttons */}
+        <div className="flex absolute top-[5%] right-[0%]">
+          <div className="2xl:mr-[-124px] mr-[-96px]">
+            <div className="flex">
+              <img src="/zimomeetscreen1.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px]" alt="Screen 1" />
+              <img src="/zimomeetscreen2.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px] mt-[64px]" alt="Screen 3" />
+              <img src="/zimomeetscreen3.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px] mt-[116px]" alt="Screen 2" />
+            </div>
+            <div className="flex mt-[-102px] hidden">
+              <img src="/zimomeetscreen4.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px]" alt="Screen 4" />
+              <img src="/zimomeetscreen5.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px] mt-[64px]" alt="Screen 5" />
+              <img src="/zimomeetscreen6.svg" className="lg:h-[200px] lg:w-[100.5px] xl:h-[200px] xl:w-[100.5px] 2xl:h-[270px] 2xl:w-[133px] mt-[111px]" alt="Screen 6" />
+            </div>
+          </div>
+          <div className="flex flex-col items-center" style={{ opacity: 1, transform: 'none', willChange: 'transform, opacity' }}>
+            <button className="mb-3 h-[45px] w-[150px]">
+              <img src="/assets/GooglePlay.png" className="h-full w-full" alt="Download on Google Play" />
+            </button>
+            <button className="w-[150px]">
+              <img src="/assets/zimomeet_applestore.svg" className="h-full w-full" alt="Download on App Store" />
+            </button>
+          </div>
+        </div>
+
         {/* Footer */}
         <footer className="flex justify-between items-end relative pt-10">
           <div className="flex items-center gap-x-2">
@@ -206,6 +231,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
 
 
@@ -275,7 +301,7 @@ export default function Home() {
               <Image src="/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
             </div>
           </div>
- 
+
           <div >
             <Image src="/mobile2.png" width={320} height={60} alt="ZT-Transfer Logo" />
           </div>
@@ -283,9 +309,9 @@ export default function Home() {
 
 
         <div className='flex flex-col items-center mt-10'>
-          <p>Get the ZIMO app on a phone or tablet</p>
-          <p>To install ZIMO, follow the link for your device from your smartphone or tablet.</p>
-          <p>ZIMO is available on many devices. The ZIMO app may come pre-installed or you may need to download and install it.</p>
+          <p className='pt-4 text-[16px] uppercase'>Get the ZIMO app on a phone or tablet</p>
+          <p className='pt-4 text-[16px] uppercase'>To install ZIMO, follow the link for your device from your smartphone or tablet.</p>
+          <p className='pt-4 text-[16px] uppercase'>ZIMO is available on many devices. The ZIMO app may come pre-installed or you may need to download and install it.</p>
         </div>
       </section>
 
