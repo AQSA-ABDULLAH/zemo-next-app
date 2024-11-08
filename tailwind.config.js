@@ -28,6 +28,11 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+
+        zoomInUp: {
+          '0%': { opacity: '0', transform: 'scale(0.8) translateY(20px)' },
+          '100%': { opacity: '1', transform: 'scale(1) translateY(0)' },
+        },
       },
       animation: {
         flipUp: 'flipUp 1s ease-out forwards',
@@ -35,6 +40,7 @@ module.exports = {
         fadeUp: 'fadeUp 1s ease-out forwards',
         fadeInTop: 'fadeInTop 1s ease-out forwards',
         fadeInBottom: 'fadeInBottom 1s ease-out forwards',
+        zoomInUp: 'zoomInUp 1s ease-out forwards',
       },
     },
   },
