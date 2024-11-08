@@ -7,7 +7,7 @@ export default function Section5() {
 
                 {/* Image with fade-up animation */}
                 <div className="flex flex-col items-center animate-fadeUp opacity-0">
-                    <Image src="/zimo-ai.png" width={600} height={60} alt="ZIMA AI Logo" />
+                    <Image src="/images/zimo-ai.png" width={600} height={60} alt="ZIMA AI Logo" />
                 </div>
 
                 {/* Text with fade-up animation */}
@@ -16,7 +16,7 @@ export default function Section5() {
                 </p>
 
                 <div className="absolute right-8 bottom-16">
-                    <Image src="/zimo-brick-ai.png" width={200} height={60} alt="ZIMA AI Logo" />
+                    <Image src="/images/zimo-brick-ai.png" width={200} height={60} alt="ZIMA AI Logo" />
                 </div>
 
                 <div className="absolute bottom-8 flex flex-col items-center">

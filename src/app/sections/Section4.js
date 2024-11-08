@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Section4() {
   return (
     <section className="w-full min-h-screen flex items-center justify-center relative">
-        <Image src="/background.png" width={2000} height={150} alt="ZIMA Pro Logo" />
+        <Image src="/images/background.png" width={2000} height={150} alt="ZIMA Pro Logo" />
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 flex flex-col items-center">

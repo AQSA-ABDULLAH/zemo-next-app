@@ -55,7 +55,7 @@ export default function Section3() {
         <div className="flex items-center gap-40">
           {/* Left Logo */}
           <div className="flex flex-col items-center">
-            <Image src="/zimo-logo3.png" width={350} height={50} alt="ZIMA Logo" />
+            <Image src="/images/zimo-logo3.png" width={350} height={50} alt="ZIMA Logo" />
           </div>
 
           {/* Vertical Divider */}
@@ -64,7 +64,7 @@ export default function Section3() {
           {/* Right Logo with "Pro" badge */}
           <div className="flex flex-col items-center">
             <div className="relative">
-              <Image src="/zimo-logo3.png" width={350} height={50} alt="ZIMA Pro Logo" />
+              <Image src="/images/zimo-logo3.png" width={350} height={50} alt="ZIMA Pro Logo" />
               <span className="absolute top-0 left-80 bg-black text-white text-xs px-1 py-0.5">PRO</span>
             </div>
           </div>

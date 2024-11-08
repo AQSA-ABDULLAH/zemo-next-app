@@ -7,7 +7,7 @@ export default function HeaderSection() {
 
                 {/* Main Logo Section */}
                 <div className="pt-80 mt-40">
-                    <Image src="/zemo-logo.png" width={280} height={0} alt="ZIMO Group Logo" />
+                    <Image src="/images/zemo-logo.png" width={280} height={0} alt="ZIMO Group Logo" />
                 </div>
 
 

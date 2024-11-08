@@ -19,7 +19,7 @@ export default function Section7() {
         </div>
 
         <a href="https://zimomeet.com" target="_blank" rel="noreferrer" className="lg:absolute left-1/2 top-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 z-20" data-aos="zoom-in">
-          <Image src="/zimo-meet2.png" width={230} height={60} alt="Visit ZIMO Meet" className="w-[120px] lg:w-[230px] 2xl:w-[430px]" />
+          <Image src="/images/zemo meet.png" width={230} height={60} alt="Visit ZIMO Meet" className="w-[120px] lg:w-[230px] 2xl:w-[430px]" />
           <span className="text-[14px] relative left-40 tracking-[2px]">visit</span>
         </a>
 
