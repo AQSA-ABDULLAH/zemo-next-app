@@ -3,6 +3,7 @@ import HeaderSection from './sections/HeaderSection';
 import Section2 from './sections/Section2';
 import Section3 from './sections/Section3';
 import Section4 from './sections/Section4';
+import Section5 from './sections/Section5';
 
 export default function Home() {
   return (
@@ -20,28 +21,7 @@ export default function Home() {
       <Section4 />
 
       {/* FIFTH SECTION */}
-      <section>
-        <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center text-black p-8 gap-4 font-semibold text-lg relative">
-
-          <div className="flex flex-col items-center">
-            <Image src="/zimo-ai.png" width={600} height={60} alt="ZIMA AI Logo" />
-          </div>
-
-          <p className="text-[30px] pt-16 tracking-wider uppercase font-[400] mt-4">
-            Artificial Intelligence for Everyone
-          </p>
-
-          <div className="absolute right-8 bottom-16">
-            <Image src="/zimo-brick-ai.png" width={200} height={60} alt="ZIMA AI Logo" />
-          </div>
-
-          <div className="absolute bottom-8 flex flex-col items-center">
-            <div className="w-4 h-6 border-2 border-black rounded-full flex items-start">
-              <div className="w-1 h-2 bg-black rounded-full animate-bounce mb-1"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Section5 />
 
       {/* SIXTH SECTION */}
       <section>
