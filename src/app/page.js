@@ -10,6 +10,7 @@ import Section8 from './sections/Section8';
 import Section9 from './sections/Section9';
 import Section10 from './sections/Section10';
 import Section11 from './sections/Section11';
+import Section13 from './sections/Section13';
 
 export default function Home() {
   return (
@@ -74,22 +75,7 @@ export default function Home() {
       </section>
 
       {/* THIRTEEN SECTION */}
-      <section className="section bg-black relative min-h-screen flex flex-col justify-center items-center" id="section14">
-        {/* Centered Text */}
-        <div className="flex justify-center items-center min-h-screen relative z-10">
-          <h4 className="text-[16px] lg:text-[25px] uppercase text-center text-white tracking-wider aos-init aos-animate" data-aos="flip-up">
-            GLOBAL ACCESS TO REAL ESTATE AND PROPERTY TO EVERYONE.
-          </h4>
-        </div>
-
-        {/* Scroll Animation */}
-        <a className="navigate-down cursor-pointer text-white invert" href="#nextSection">
-          <div className="scroll__animation" style={{ opacity: 1, willChange: 'auto' }}>
-            <div className="mouse"></div>
-          </div>
-        </a>
-
-      </section>
+      <Section13 />
 
       {/* FOURTEEN SECTION */}
       <section className='py-16 px-10'>
