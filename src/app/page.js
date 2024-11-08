@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import HeaderSection from './sections/HeaderSection';
+import Section2 from './sections/Section2';
 
 export default function Home() {
   return (
@@ -7,26 +8,8 @@ export default function Home() {
       {/* FIRST SECTION */}
       <HeaderSection />
 
-
       {/* SECOND SECTION */}
-      <section>
-        <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white text-center p-8 gap-4 font-semibold text-lg">
-
-          {/* Logo */}
-          <Image src="/zimo-logo2.png" width={400} height={120} alt="ZIMO Group Logo" />
-
-          {/* Main Text */}
-          <p>WE ARE THE GLOBAL PLATFORM.</p>
-          <p>SERVICES IN OVER ONE HUNDRED AND TWENTY COUNTRIES.</p>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 flex flex-col items-center">
-            <div className="w-4 h-6 border-2 border-white rounded-full flex items-start">
-              <div className="w-1 h-2 bg-white rounded-full animate-bounce mb-1"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Section2 />
 
       {/* THIRD SECTION */}
       <section>
