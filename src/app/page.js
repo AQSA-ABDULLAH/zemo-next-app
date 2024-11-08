@@ -7,6 +7,7 @@ import Section5 from './sections/Section5';
 import Section6 from './sections/Section6';
 import Section7 from './sections/Section7';
 import Section8 from './sections/Section8';
+import Section9 from './sections/Section9';
 
 export default function Home() {
   return (
@@ -37,92 +38,7 @@ export default function Home() {
       <Section8 />
 
       {/* NINTH SECTION */}
-      {/* Section for Real Estate */}
-      <section id="section7" className="relative min-h-screen w-full">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://zimogroup.org/_next/static/media/beach.8a0e41e5.png)',
-            backgroundAttachment: 'fixed',
-          }}
-        />
-
-        <div className="relative z-10 flex items-center justify-center min-h-screen">
-          <h4 className="text-4xl uppercase text-white opacity-50 tracking-wider text-center" data-aos="fade-left">
-            Beaches
-          </h4>
-        </div>
-      </section>
-
-      {/* Section for Real Estate */}
-      <section id="section7" className="relative min-h-screen w-full">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://zimogroup.org/_next/static/media/bg-1.73b2c3da.png)',
-            backgroundAttachment: 'fixed',
-          }}
-        />
-
-        <div className="relative z-10 flex items-center justify-center min-h-screen">
-          <h4 className="text-4xl uppercase text-white opacity-50 tracking-wider text-center" data-aos="fade-left">
-            Real State
-          </h4>
-        </div>
-      </section>
-
-      {/* Section for Cars */}
-      <section id="section7" className="relative min-h-screen w-full">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://zimogroup.org/_next/static/media/cars.b1e107ec.png)',
-            backgroundAttachment: 'fixed',
-          }}
-        />
-
-        <div className="relative z-10 flex items-center justify-center min-h-screen">
-          <h4 className="text-4xl uppercase text-white opacity-50 tracking-wider text-center" data-aos="fade-left">
-            Cars
-          </h4>
-        </div>
-      </section>
-
-      {/* Section for Yachts */}
-      <section id="section7" className="relative min-h-screen w-full">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://zimogroup.org/_next/static/media/yatch.ee02e208.png)',
-            backgroundAttachment: 'fixed',
-          }}
-        />
-
-        <div className="relative z-10 flex items-center justify-center min-h-screen">
-          <h4 className="text-4xl uppercase text-white opacity-50 tracking-wider text-center" data-aos="fade-left">
-            Yachts
-          </h4>
-        </div>
-      </section>
-
-      {/* Section for Watches */}
-      <section id="section8" className="relative min-h-screen w-full">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://zimogroup.org/_next/static/media/watches.16d9cc71.png)',
-            backgroundAttachment: 'fixed',
-          }}
-        />
-
-        <div className="relative z-10 flex items-center justify-center min-h-screen">
-          <h4 className="text-4xl uppercase text-white opacity-50 tracking-wider text-center" data-aos="fade-right">
-            Watches
-          </h4>
-        </div>
-
-
-      </section>
+      <Section9 />
 
       {/* TENTH SECTION */}
       <section id="zdoc" className="section container mx-auto min-h-screen flex flex-col justify-between py-16">
