@@ -41,13 +41,13 @@ export default function Section14() {
   return (
     <section className="py-16 px-10">
       <div className="flex flex-col items-center mb-8">
-        <Image src="/iamges/zimo-download.png" width={120} height={60} alt="ZT-Transfer Logo" />
+        <Image src="/images/zimo-download.png" width={120} height={60} alt="ZT-Transfer Logo" />
       </div>
 
       <div className="flex space-between gap-60">
         {/* Mobile 1 Image with fade-down-right animation */}
         <div ref={mobileImageRef1} className="opacity-0 transition-opacity duration-1000">
-          <Image src="/iamges/mobile1.png" width={320} height={60} alt="ZT-Transfer Logo" />
+          <Image src="/imaes/mobile1.png" width={320} height={60} alt="ZT-Transfer Logo" />
         </div>
 
         <div className="flex flex-col items-center">
@@ -57,7 +57,7 @@ export default function Section14() {
             <Image src="/images/GooglePlay.png" width={230} height={60} alt="ZT-Transfer Logo" />
           </div>
           <div>
-            <Image src="/iamges/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
+            <Image src="/images/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
           </div>
         </div>
 
