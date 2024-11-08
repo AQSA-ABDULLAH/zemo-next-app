@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import HeaderSection from './sections/HeaderSection';
 import Section2 from './sections/Section2';
 import Section3 from './sections/Section3';
@@ -12,6 +11,7 @@ import Section10 from './sections/Section10';
 import Section11 from './sections/Section11';
 import Section13 from './sections/Section13';
 import Section12 from './sections/Section12';
+import Section14 from './sections/Section14';
 
 export default function Home() {
   return (
@@ -57,41 +57,7 @@ export default function Home() {
       <Section13 />
 
       {/* FOURTEEN SECTION */}
-      <section className='py-16 px-10'>
-        <div className="flex flex-col items-center mb-8">
-          <Image src="/zimo-download.png" width={120} height={60} alt="ZT-Transfer Logo" />
-        </div>
-
-
-
-        <div className="flex space-between gap-60 ">
-          <div>
-            <Image src="/mobile1.png" width={320} height={60} alt="ZT-Transfer Logo" />
-          </div>
-
-          <div className='flex flex-col items-center'>
-            <p className='pt-16 text-[30px] uppercase font-[400]'>DOWNLOAD</p>
-            <p className='pt-6 text-[26px] uppercase font-[400]'>OUR APP</p>
-            <div>
-              <Image src="/GooglePlay.png" width={230} height={60} alt="ZT-Transfer Logo" />
-            </div>
-            <div>
-              <Image src="/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
-            </div>
-          </div>
-
-          <div >
-            <Image src="/mobile2.png" width={320} height={60} alt="ZT-Transfer Logo" />
-          </div>
-        </div>
-
-
-        <div className='flex flex-col items-center mt-10'>
-          <p className='pt-4 text-[16px] uppercase'>Get the ZIMO app on a phone or tablet</p>
-          <p className='pt-4 text-[16px] uppercase'>To install ZIMO, follow the link for your device from your smartphone or tablet.</p>
-          <p className='pt-4 text-[16px] uppercase'>ZIMO is available on many devices. The ZIMO app may come pre-installed or you may need to download and install it.</p>
-        </div>
-      </section>
+      <Section14 />
 
       {/* FIFTEEN SECTION */}
       <section
