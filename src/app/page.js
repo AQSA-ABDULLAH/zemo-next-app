@@ -11,6 +11,7 @@ import Section9 from './sections/Section9';
 import Section10 from './sections/Section10';
 import Section11 from './sections/Section11';
 import Section13 from './sections/Section13';
+import Section12 from './sections/Section12';
 
 export default function Home() {
   return (
@@ -33,7 +34,6 @@ export default function Home() {
       {/* SIXTH SECTION */}
       <Section6 />
 
-
       {/* SEVENTH SECTION */}
       <Section7 />
 
@@ -51,28 +51,7 @@ export default function Home() {
 
 
       {/* TWELTH SECTION */}
-      <section id="section15" className="section min-h-screen relative overflow-hidden bg-white">
-        <div className="w-full min-h-screen flex justify-center items-center text-center">
-
-          {/* Text and Logo */}
-          <div data-aos="zoom-in-up" className="aos-init aos-animate">
-            <h2 className="text-[25px] font-normal uppercase tracking-wider">Bringing the world closer together.</h2>
-            <img className="block mx-auto mt-6" src="/zimo-logo-2.png" alt="Zimo Logo" />
-          </div>
-
-          {/* Hero Image Wrapper */}
-          <div className="hero-img-wrapper">
-            <img src="/zimoback.png" data-aos="zoom-in-down" alt="Zimo Black Logo" className="aos-init aos-animate" />
-          </div>
-        </div>
-
-        {/* Scroll Down Icon */}
-        <a className="navigate-down cursor-pointer text-black invert" href="#nextSection">
-          <div className="scroll__animation" style={{ opacity: 1, willChange: 'auto' }}>
-            <div className="mouse"></div>
-          </div>
-        </a>
-      </section>
+      <Section12 />
 
       {/* THIRTEEN SECTION */}
       <Section13 />

@@ -11,7 +11,7 @@ export default function Section3() {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fadeInTop');
+          entry.target.classList.add('animate-fadeDown');  // Updated to animate-fadeDown
         }
       },
       { threshold: 0.1 }
@@ -24,7 +24,7 @@ export default function Section3() {
     const bottomTextObserver = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fadeInBottom');
+          entry.target.classList.add('animate-fadeUp');  // Updated to animate-fadeUp
         }
       },
       { threshold: 0.1 }
@@ -88,5 +88,6 @@ export default function Section3() {
     </section>
   );
 }
+
 
 

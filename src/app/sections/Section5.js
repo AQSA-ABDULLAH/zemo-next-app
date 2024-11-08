@@ -5,11 +5,13 @@ export default function Section5() {
         <section>
             <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center text-black p-8 gap-4 font-semibold text-lg relative">
 
-                <div className="flex flex-col items-center">
+                {/* Image with fade-up animation */}
+                <div className="flex flex-col items-center animate-fadeUp opacity-0">
                     <Image src="/zimo-ai.png" width={600} height={60} alt="ZIMA AI Logo" />
                 </div>
 
-                <p className="text-[30px] pt-16 tracking-wider uppercase font-[400] mt-4">
+                {/* Text with fade-up animation */}
+                <p className="text-[30px] pt-16 tracking-wider uppercase font-[400] mt-4 animate-fadeUp opacity-0">
                     Artificial Intelligence for Everyone
                 </p>
 
@@ -26,3 +28,4 @@ export default function Section5() {
         </section>
     )
 }
+
