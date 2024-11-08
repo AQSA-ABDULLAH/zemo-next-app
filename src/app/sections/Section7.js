@@ -5,7 +5,7 @@ export default function Section7() {
     <section className="container mx-auto relative py-16 px-12 flex flex-col gap-4 min-h-screen uppercase bg-white text-black font-semibold text-lg">
 
         <div className="flex flex-col">
-          <Image src="/zemo-meet.png" width={200} height={60} alt="ZIMA Meet Logo" className="w-[200px] lg:w-[400px] 2xl:w-[524px]" />
+          <Image src="/images/zemo-meet.png" width={200} height={60} alt="ZIMA Meet Logo" className="w-[200px] lg:w-[400px] 2xl:w-[524px]" />
         </div>
 
         <div className="flex flex-col gap-1 tracking-[2px] text-[10px] 2xl:text-[14px] mt-10 text-gray-600">

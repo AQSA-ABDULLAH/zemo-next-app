@@ -41,29 +41,29 @@ export default function Section14() {
   return (
     <section className="py-16 px-10">
       <div className="flex flex-col items-center mb-8">
-        <Image src="/zimo-download.png" width={120} height={60} alt="ZT-Transfer Logo" />
+        <Image src="/iamges/zimo-download.png" width={120} height={60} alt="ZT-Transfer Logo" />
       </div>
 
       <div className="flex space-between gap-60">
         {/* Mobile 1 Image with fade-down-right animation */}
         <div ref={mobileImageRef1} className="opacity-0 transition-opacity duration-1000">
-          <Image src="/mobile1.png" width={320} height={60} alt="ZT-Transfer Logo" />
+          <Image src="/iamges/mobile1.png" width={320} height={60} alt="ZT-Transfer Logo" />
         </div>
 
         <div className="flex flex-col items-center">
           <p className="pt-16 text-[30px] uppercase font-[400]">DOWNLOAD</p>
           <p className="pt-6 text-[26px] uppercase font-[400]">OUR APP</p>
           <div>
-            <Image src="/GooglePlay.png" width={230} height={60} alt="ZT-Transfer Logo" />
+            <Image src="/images/GooglePlay.png" width={230} height={60} alt="ZT-Transfer Logo" />
           </div>
           <div>
-            <Image src="/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
+            <Image src="/iamges/app-store.png" width={280} height={60} alt="ZT-Transfer Logo" />
           </div>
         </div>
 
         {/* Mobile 2 Image with fade-down-left animation */}
         <div ref={mobileImageRef2} className="opacity-0 transition-opacity duration-1000">
-          <Image src="/mobile2.png" width={320} height={60} alt="ZT-Transfer Logo" />
+          <Image src="/images/mobile2.png" width={320} height={60} alt="ZT-Transfer Logo" />
         </div>
       </div>
 

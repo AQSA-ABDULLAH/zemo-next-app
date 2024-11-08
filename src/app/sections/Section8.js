@@ -6,7 +6,7 @@ export default function Section8() {
         <div className="flex flex-col items-center justify-center min-h-screen bg-black text-center text-black p-8 gap-4 font-semibold text-lg relative">
 
           <div className="flex flex-col items-center">
-            <Image src="/ZTFR.png" width={560} height={60} alt="ZTFR Logo" />
+            <Image src="/images/ZTFR.png" width={560} height={60} alt="ZTFR Logo" />
           </div>
 
           <p className="text-[30px] pt-16 tracking-wider uppercase font-[400] mt-4">
@@ -14,7 +14,7 @@ export default function Section8() {
           </p>
 
           <div className="absolute right-8 bottom-16">
-            <Image src="/ztrf.png" width={180} height={60} alt="ZIMA AI Logo" />
+            <Image src="/images/ztrf.png" width={180} height={60} alt="ZIMA AI Logo" />
           </div>
 
           <div className="absolute bottom-8 flex flex-col items-center">
