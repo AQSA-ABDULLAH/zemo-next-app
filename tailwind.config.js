@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,27 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
       keyframes: {
-        fadeInTop: {
-          '0%': { opacity: '0', transform: 'translateY(-80px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        },
-        fadeInBottom: {
-          '0%': { opacity: '0', transform: 'translateY(80px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
+        flipUp: {
+          '0%': { opacity: '0', transform: 'rotateX(-90deg)' },
+          '100%': { opacity: '1', transform: 'rotateX(0)' },
         },
       },
       animation: {
-        fadeInTop: 'fadeInTop 1s ease-out forwards',
-        fadeInBottom: 'fadeInBottom 1s ease-out forwards',
+        flipUp: 'flipUp 1s ease-out forwards',
       },
     },
   },
   plugins: [],
-};
-
-
+}

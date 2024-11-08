@@ -9,6 +9,7 @@ import Section7 from './sections/Section7';
 import Section8 from './sections/Section8';
 import Section9 from './sections/Section9';
 import Section10 from './sections/Section10';
+import Section11 from './sections/Section11';
 
 export default function Home() {
   return (
@@ -43,23 +44,9 @@ export default function Home() {
 
       {/* TENTH SECTION */}
       <Section10 />
+
       {/* ELEVENTH SECTION */}
-      <section className="section bg-black relative min-h-screen flex flex-col justify-center items-center" id="section14">
-        {/* Centered Text */}
-        <div className="flex justify-center items-center min-h-screen relative z-10">
-          <h4 className="text-[16px] lg:text-[25px] text-center uppercase text-white tracking-wider aos-init aos-animate" data-aos="flip-up">
-            A REAL ESTATE AND PROPERTY PLATFORM THAT WILL CHANGE THE WORLD.
-          </h4>
-        </div>
-
-        {/* Scroll Animation */}
-        <a className="navigate-down cursor-pointer text-white invert" href="#nextSection">
-          <div className="scroll__animation" style={{ opacity: 1, willChange: 'auto' }}>
-            <div className="mouse"></div>
-          </div>
-        </a>
-
-      </section>
+      <Section11 />
 
 
       {/* TWELTH SECTION */}
