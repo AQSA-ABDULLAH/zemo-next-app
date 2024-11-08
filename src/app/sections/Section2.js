@@ -7,7 +7,7 @@ export default function Section2() {
 
                 <div className='flex flex-row gap-20'>
                     {/* Logo */}
-                    <Image src="/zimo-logo2.png" width={200} height={120} alt="ZIMO Group Logo" />
+                    <Image src="/images/zimo-logo2.png" width={200} height={120} alt="ZIMO Group Logo" />
 
                     {/* Main Text */}
                     <div className='text-[24px] font-[400]'>
